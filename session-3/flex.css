@@ -1,0 +1,15 @@
+.flex-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bord{
+    border: 2px black solid;
+    width: 20%;
+}
+
+.flex-cont > div {
+    margin: 2px;
+    padding: 10px;
+    background-color: aqua;
+}

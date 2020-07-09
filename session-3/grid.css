@@ -1,0 +1,40 @@
+.gridcont{
+	display: grid;
+	grid-template-areas: "head1 head1 head1 head1 head1 head1"
+				  "left1 mainb mainb right1 right1 right1"
+                  "left1 foot1 foot1 foot1 foot1 foot1";
+}
+
+.header1{
+    grid-area: head1;
+    margin: 2px;
+    padding: 10px;
+    background-color: rgb(142, 187, 187);
+}
+
+.footer1{
+    grid-area: foot1;
+    margin: 2px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.leftsec{
+    grid-area: left1;
+    margin: 2px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.rightsec{
+    grid-area: right1;
+    margin: 2px;
+    padding: 10px;
+    background-color: greenyellow;
+}
+.mainbody{
+    grid-area: mainb;
+    margin: 2px;
+    padding: 10px;
+    background-color: lightgreen;
+}

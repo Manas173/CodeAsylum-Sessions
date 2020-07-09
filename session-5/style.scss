@@ -1,0 +1,20 @@
+$border1 : 2px black solid;
+$color1 : lightgreen;
+$padding1 : 2px;
+
+.navbar{
+    background-color : $color1;
+    ul{
+        padding: 2px;
+        text-align: end;
+    }
+    li{
+        display: inline-block;
+        padding: $padding1 * 1.5;
+    }
+}
+
+.navbar1{
+    @extend .navbar;
+    background-color: red;
+}

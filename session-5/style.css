@@ -1,0 +1,18 @@
+.navbar, .navbar1 {
+  background-color: lightgreen;
+}
+
+.navbar ul, .navbar1 ul {
+  padding: 2px;
+  text-align: end;
+}
+
+.navbar li, .navbar1 li {
+  display: inline-block;
+  padding: 3px;
+}
+
+.navbar1 {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */
